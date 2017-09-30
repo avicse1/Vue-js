@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data binding</title>
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id=vue-instance>
+		Enter Greeting: <input type="" name="" v-model="greeting">
+		<pre>{{ greeting }}</pre>
+	</div>
+
+	<script type="text/javascript">
+		new Vue({
+			el: "#vue-instance",
+			data: {
+				greeting: "Morning"
+			}
+		});
+	</script>
+
+</body>
+</html>
